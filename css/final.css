@@ -2,7 +2,7 @@
 /* COGS3 studyBuddy specific styles go here. */
 #title {
   background-position: -100px -300px;
-  background-image: url('./images/pictureofme-overlay.jpg');
+  background-image: url('images/pictureofme-overlay.jpg');
 }
 
 .container-fluid {
