@@ -1,0 +1,153 @@
+
+/* COGS3 studyBuddy specific styles go here. */
+#title {
+  background-position: -100px -300px;
+  background-image: url('/images/pictureofme-overlay.jpg');
+}
+
+.container-fluid {
+  padding: 3% 15%;
+}
+
+h1 {
+  margin-top: 50px;
+  margin-bottom: 20px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3vw;
+  line-height: 1.5;
+  color: #fff;
+}
+
+span {
+  font-family: cursive;
+}
+
+h2 {
+  color: #fff;
+  font-family: 'Montserrat';
+  font-size: 1.5;
+  font-weight: bold;
+}
+
+h3 {
+  font-family: 'Montserrat';
+  font-weight: bold;
+}
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-toggler-icon {
+  background-color: white;
+  border-radius: 5px;
+}
+
+#navbar-name {
+  color: white;
+}
+
+#navbar-name:hover #navbar-namehidden {
+  opacity: 1;
+  background-color: white;
+  transition: 1s;
+}
+
+.navbar-brand {
+  transition: 1s;
+  border-radius: 10px;
+  padding: 0 1rem 0;
+  font-family: 'Ubuntu';
+  font-size:2rem;
+  font-weight: bold;
+}
+
+#navbar-namehidden {
+  padding: 0 3px 0;
+  border-radius: 10px;
+  opacity: 0;
+  font-size: 1rem;
+  color: #7AC74F;
+}
+
+.navbar-item {
+  padding: 4px 18px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.2rem;
+}
+
+#item{
+  color: white;
+}
+
+#contact {
+  font-weight: bold;
+  font-size: 1.5rem;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#aboutme {
+  text-align: center;
+}
+
+div.textbox {
+  background-color: gray;
+  border: 1px solid black;
+  border-radius: 10px;
+  opacity: 0.9;
+}
+
+div.textbox h2 {
+  margin-top: 2%;
+  margin-bottom: 2%;
+  font-weight: bold;
+  color: #000000;
+}
+
+.carousel-item {
+  padding: 10% 15%;
+}
+
+div.clickhere {
+  text-align: center;
+  background-color: yellow;
+  border: 1px solid black;
+  border-radius: 10px;
+  margin-top: 17rem;
+  margin-left: 21rem;
+  margin-right: 21rem;
+}
+
+div.clickhere a {
+  margin-top: 2%;
+  margin-bottom: 2%;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #000000;
+}
+
+#itemcontent {
+  text-align: center;
+}
+
+#contactme {
+  text-align: center;
+  font-size: 2rem;
+}
+
+#funpart {
+  text-align: center;
+}
+
+.btn-color {
+  animation: color-change 1s infinite;
+}
+
+@keyframes color-change {
+  0% { color: red; }
+  20% { color: orange; }
+  40% { color: yellow; }
+  60% { color: green; }
+  80% { color: blue; }
+  100% { color: purple; }
+}
